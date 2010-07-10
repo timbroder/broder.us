@@ -1,15 +1,45 @@
 div.script {
 	font-family: 'Tangerine', serif;
-  font-size: 48px;
-  text-shadow: 4px 4px 4px #aaa;
+ 	font-size: 48px;
+ 	text-shadow: 4px 4px 4px #aaa;
 }
+
+
+div.subtitle {
+	font-family: 'Tangerine', serif;
+	color:#73c26f;
+	font-size: 32px;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+div.paragraph {
+	font-family: 'Droid Sans', serif;
+	font-size: 14px;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+div.paragraph A:link {
+	text-decoration: underline; 
+	color:#000000;
+}
+div.paragraph A:visited {
+	text-decoration: underline; 
+	color:#000000;
+}
+div.paragraph A:active {
+	text-decoration: none; 
+	color:#fa82e2
+}
+div.paragraph A:hover {
+	text-decoration: underline;
+	color:#fa82e2;
+} 
 
 #tabs {
 	width:700px;
 	//text-align: center;
-	margin-left: auto ;
-  margin-right: auto ;
-
+	margin-left: auto;
+    margin-right: auto;
 }
 
 #thering {
@@ -29,9 +59,8 @@ div.script {
 .ui-tabs .ui-tabs-nav li { 
 	float: none; 
 	display: inline; 
-
 }
+
 .ui-tabs .ui-tabs-nav li a { 
 	float: none; 
 }
-
