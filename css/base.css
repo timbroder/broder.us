@@ -66,7 +66,8 @@ div.paragraph A:hover {
 }
 
 body { 
-  background: url(../images/mono.gif);
+  background-image: url(../images/mono.gif);
   background-repeat: no-repeat;
   background-position: left top;
+  background-attachment:fixed;
 }
