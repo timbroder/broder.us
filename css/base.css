@@ -64,3 +64,10 @@ div.paragraph A:hover {
 .ui-tabs .ui-tabs-nav li a { 
 	float: none; 
 }
+
+body
+{
+background-image:url('mono.gif');
+background-repeat:no-repeat;
+background-position:right top;
+}
