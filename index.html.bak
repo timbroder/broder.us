@@ -7,8 +7,8 @@
 
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine" />
 	<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="css/base.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/smoothness/jquery-ui-1.8.2.custom.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/base.css" type="text/css" media="screen" />
 	
 	<!--<script src="js/prototype.js" type="text/javascript"></script>
 	<script src="js/scriptaculous.js?load=effects,builder" type="text/javascript"></script>
@@ -18,7 +18,7 @@
 	<script src="js/jquery.address.js" type="text/javascript"></script>
 
 </head>
-<body>
+<body background="images/mono.gif" bgproperties="fixed">
 	
 	<script type="text/javascript">
 		$(function() {
@@ -38,22 +38,46 @@
 
 
 
-<div class="demo">
-	<div class="script">
-		Tim & Laura
-	</div>
+	
 	<div id="tabs">
 		<ul>
 			<li><a href="#ourstory" rel="address:/">Our Story</a></li>
 			<li><a href="#thering" rel="address:/thering">The Ring</a></li>
 			<li><a href="#venue" rel="address:/venue">Venue</a></li>
 			<li><a href="#lodging" rel="address:/lodging">Lodging</a></li>
-			<li><a href="#rsvp" rel="address:/rsvp">RSVP</a></li>
-			<li><a href="#registry" rel="address:/registry">Registry</a></li>
+			<!--<li><a href="#rsvp" rel="address:/rsvp">RSVP</a></li>
+			<li><a href="#registry" rel="address:/registry">Registry</a></li>-->
 		</ul>
 
 		<div id="ourstory">
-			story
+			<div class="subtitle">
+				First Meeting
+			</div>
+			<div class="paragraph">
+					The first time we met is the subject of some debate.  Tim remembers an encounter sophomore year of college, when he visited MA with his college friend Red (John).  Laura and John went to high school together and remained good friends.  Laura has no recollection of this meeting.
+					<br><br>
+				<img src="images/tacohalo.jpg" align="left" heigh="190" width="150" hspace="10">Fast forward four years.  It's late September 2007.  Laura has recently moved to Hoboken.  Still great friends, John tells her he is visiting Hoboken for the day, to play <a href="http://www.eonline.com/uberblog/b56284_Halo_3s_Heavenly_Debut.html" target="_blank">Halo 3</a> with his friends who live there.  The game has just been released, and, duh, they need to play it all afternoon long.  Laura, wanting to see her friend, offers to come make tacos for the guys as they play.
+				<br><br>
+				The tacos are a hit with the guys.  Laura and Tim don't exactly hit it off.  She remembers that he was stand-offish and quiet.  He remembers that Halo 3 was a really cool game and the tacos were delicious.<br><br>
+			</div>
+			<div class="subtitle">
+				Fast Friends
+			</div>
+			<div class="paragraph">	
+				Laura and Tim start emailing around Halloween, casual and friendly.  She needs to pick up a rental car, he offers to come along.  She doesn't feel all that great, he brings over some soup.  His friends are going out for drinks before the Thanksgiving break, she comes along.  She hasn't tried the <a href="http://maps.google.com/maps?hl=en&client=firefox-a&hs=Zgh&rls=org.mozilla:en-US:official&um=1&ie=UTF-8&q=impostos+hoboken&fb=1&gl=us&hq=impostos&hnear=Hoboken,+NJ&cid=0,0,11745738381612896590&ei=Xd04TMmLJYGB8gaqgOWmBg&sa=X&oi=local_result&ct=image&resnum=1&ved=0CBcQnwIwAA" target="_blank">best pizza in Hoboken</a>, he brings some over.  All the while, emails and text messages are whizzing around as the two form a bond. <br><br>
+			</div>	
+				<div class="subtitle">
+					First Date
+				</div>
+				<div class="paragraph">
+					<img src="images/tree.jpg" align="right" hspace="10">Over the Thanksgiving long weekend, Tim calls Laura to formally ask her on a date.  They plan to go to dinner and see the Christmas tree at Rockefeller Center.  They spend a romantic evening walking around New York City, not wanting the night to end: they know Tim is leaving for Japan the next day for a week.  By the end of that evening, they both know that although Tim will have tons of fun in Japan, he will be remaining faithful to his new lady.  Sure enough, when he arrives back in the States 10 days later (December 9, 2007), Laura picks him up from the airport and he officially asks her to be his girlfriend.<br><br>
+				</div>	
+					<div class="subtitle">
+						Happily Ever After
+					</div>
+					<div class="paragraph">
+						Once we started dating, we were basically inseparable.  In January 2009, we took the leap and moved in together.  And on May 20, 2010, exactly 2.5 years from the night with that tasty pizza, <a href="#/thering">we got engaged....</a>
+					</div>
 		</div>
 		<div id="thering">
 			<div class="script">
@@ -85,14 +109,14 @@
 		<div id="lodging">
 			lodging
 		</div>
-		<div id="rsvp">
+		<!-- <div id="rsvp">
 			RSVP
 		</div>
 		<div id="registry">
 			registry
-		</div>
+		</div> -->
 	</div>
-</div>
+
 
 
 

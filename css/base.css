@@ -65,9 +65,8 @@ div.paragraph A:hover {
 	float: none; 
 }
 
-body
-{
-background-image:url('mono.gif');
-background-repeat:no-repeat;
-background-position:right top;
+body { 
+  background: url(../images/mono.gif);
+  background-repeat: no-repeat;
+  background-position: left top;
 }
