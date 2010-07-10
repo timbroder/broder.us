@@ -23,13 +23,15 @@ div.script {
 .ui-tabs .ui-tabs-nav { 
 	float: none; 
 	text-align: center; 
-	
+	padding-top: 10px;
+	padding-bottom: 8px;
 }
 
 .ui-tabs .ui-tabs-nav li { 
 	float: none; 
 	display: inline; 
-
+	padding-top: 6px;
+	padding-bottom: 8px;
 }
 .ui-tabs .ui-tabs-nav li a { 
 	float: none; 
