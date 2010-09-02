@@ -6,7 +6,7 @@ div.script {
 
 
 div.subtitle {
-	font-family: 'Tangerine', serif;
+	font-family: 'Lobster', serif;
 	color:#73c26f;
 	font-size: 32px;
 	text-shadow: 4px 4px 4px #aaa;
@@ -66,7 +66,8 @@ div.paragraph A:hover {
 }
 
 body { 
-  background: url(../images/mono.gif);
+  background-image: url(../images/mono.gif);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left top;
+  background-attachment:fixed;
 }
