@@ -75,7 +75,7 @@
 			<li><a href="#thering" rel="address:/thering">Proposal</a></li>
 			<li><a href="#venue" rel="address:/venue">Wedding</a></li>
 			<li><a href="#lodging" rel="address:/lodging">Lodging</a></li>
-			<li><a href="#registry" rel="address:/lodging">Registry</a></li>
+			<li><a href="#registries" rel="address:/registries">Registries</a></li>
 			<!--<li><a href="#rsvp" rel="address:/rsvp">RSVP</a></li>-->
 		</ul>
 
@@ -130,7 +130,7 @@
 					<a href="images/lt7.jpg" class="ltgroup" rel="ltgroup">
 						<img src="images/lt7_small.jpg"/>	
 					</a>
-					<a href="images/lt8.jpg" class="ltgroup" rel="engage">
+					<a href="images/lt8.jpg" class="ltgroup" rel="ltgroup">
 						<img src="images/lt8_small.jpg"/>	
 					</a>
 					
@@ -234,7 +234,7 @@
 		
 			<div class="paragraph">	
 			Conveniently located in the heart of north central Massachusetts, the award-winning Four Points by Sheraton Leominster features 187 guest rooms and the best in customer service.  <a href="http://www.starwoodhotels.com/fourpoints/search/hotel_detail.html?propertyID=818" target="_blank">Visit their website</a>.<br><br>
-			Please call the hotel (<b>(978) 534-9000</b>) to make a reservation.  <b>Be sure to ask for the D'Amico/Broder wedding room rate</b>, which includes breakfast Sunday morning!  <br><br><i>PS. Help us make sure we have enough rooms blocked by making a reservation early.</i><br><br><i>PPS. We will provide a shuttle from and to the Sheraton, as well as have our after party in the hotel bar.  You wanna stay there!</i><br><br>
+			Please call the hotel (<b>(978) 534-9000</b>) to make a reservation.  <b>Be sure to ask for the D'Amico/Broder wedding room rate ($110/night)</b>, which includes breakfast Sunday morning!  <br><br><i>PS. Help us make sure we have enough rooms blocked by making a reservation early.</i><br><br><i>PPS. We will provide a shuttle from and to the Sheraton, as well as have our after party in the hotel bar.  You wanna stay there!</i><br><br>
 			</div>	
 				<div class="subtitle">
 					Directions
@@ -265,12 +265,18 @@
 		<!-- <div id="rsvp">
 			RSVP
 		</div> -->
-		<div id="registry">
+		<div id="registries">
 			<div class="subtitle">	
 				Bed, Bath, and Beyond<br>
 			</div>
 			<div class="paragraph">
-			Help us make our bedroom, bathroom, and..err...beyondroom special!  <a href="http://www.bedbathandbeyond.com/regGiftRegistry.asp?wrn=-1891308446&" target="_blank">Click here</a> to see our registry.
+			<a href="http://www.bedbathandbeyond.com/regGiftRegistry.asp?wrn=-1891308446&" target="_blank">Click here</a> to see our registry.<br><br><br>
+			</div>	
+			<div class="subtitle">	
+				Macy's<br>
+			</div>
+			<div class="paragraph">
+			<a href="http://www1.macys.com/registry/wedding/guest/?registryId=294973" target="_blank">Click here</a> to see our registry.
 			</div>	
 		</div> 
 	</div>
