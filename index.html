@@ -44,28 +44,7 @@
 </head>
 <body>
 	
-	<script type="text/javascript">
-		$(function() {
-			var tabs;
 
-			$.address.init(function(event) {
-				tabs = $('#tabs').tabs({		
-					fx: { opacity: 'toggle' }
-				})		
-			}).change(function(event) {		
-				$.address.title($.address.title().split(' | ')[0] + ' | ' + $('a').filter('[rel=address:' + event.value + ']').text());
-			}).externalChange(function(event) {
-				tabs.tabs('select', $('a').filter('[rel=address:' + event.value + ']').attr('href'));
-			});	
-			
-			$("a.ringgroup").fancybox();	
-			$("a.engage").fancybox();
-			$("a.ltgroup").fancybox();
-		});
-		
-		
-
-	</script>
 
 
 
@@ -77,7 +56,7 @@
 			<li><a href="#venue" rel="address:/venue">Wedding</a></li>
 			<li><a href="#lodging" rel="address:/lodging">Lodging</a></li>
 			<li><a href="#registries" rel="address:/registries">Registries</a></li>
-			<!--<li><a href="#rsvp" rel="address:/rsvp">RSVP</a></li>-->
+			<li><a href="#rsvp" rel="address:/rsvp">RSVP</a></li>
 		</ul>
 
 		<div id="ourstory">
@@ -263,9 +242,11 @@
 				<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=99+Erdman+Way+Leominster+01453&amp;sll=42.500195,-71.74162&amp;sspn=0.137699,0.351562&amp;ie=UTF8&amp;hq=&amp;hnear=99+Erdman+Way,+Leominster,+Worcester,+Massachusetts+01453&amp;ll=42.55504,-71.755314&amp;spn=0.022129,0.036478&amp;z=14&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=99+Erdman+Way+Leominster+01453&amp;sll=42.500195,-71.74162&amp;sspn=0.137699,0.351562&amp;ie=UTF8&amp;hq=&amp;hnear=99+Erdman+Way,+Leominster,+Worcester,+Massachusetts+01453&amp;ll=42.55504,-71.755314&amp;spn=0.022129,0.036478&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 				
 		</div>
-		<!-- <div id="rsvp">
-			RSVP
-		</div> -->
+		<div id="rsvp">
+			<div class="paragraph">
+				Please <a href="http://weddings.theknot.com/pwp/pwp2/view/MemberPage.aspx?coupleId=7425104015475846" class="iframe" id="rsvp_control">click here</a> to RSVP
+			</div>
+		</div>
 		<div id="registries">
 			<div class="subtitle">	
 				Bed, Bath, and Beyond<br>
@@ -283,7 +264,34 @@
 	</div>
 
 
+	<script type="text/javascript">
+		$(function() {
+			var tabs;
 
+			$.address.init(function(event) {
+				tabs = $('#tabs').tabs({		
+					fx: { opacity: 'toggle' }
+				})		
+			}).change(function(event) {		
+				$.address.title($.address.title().split(' | ')[0] + ' | ' + $('a').filter('[rel=address:' + event.value + ']').text());
+			}).externalChange(function(event) {
+				tabs.tabs('select', $('a').filter('[rel=address:' + event.value + ']').attr('href'));
+			});	
+			
+			$("a.ringgroup").fancybox();	
+			$("a.engage").fancybox();
+			$("a.ltgroup").fancybox();
+			$("#rsvp_control").fancybox({
+				'autoScale': true,
+				'type': 'iframe',
+				'width': '65%',
+				'height': '75%',
+			});
+		});
+		
+		
+
+	</script>
 
 
 
