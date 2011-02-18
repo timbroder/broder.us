@@ -71,3 +71,24 @@ body {
   background-position: left top;
   background-attachment:fixed;
 }
+
+#right-sidebar{
+  position:absolute;
+  top:40%;
+  right:0px;
+  width:<length>;
+  height:100%;
+ }
+@media screen{
+  body>div#right-sidebar{
+   position:fixed;
+  }
+ }
+  * html body{
+  overflow:hidden;
+ } 
+ * html div#content{
+  height:100%;
+  overflow:auto;
+ }
+ 
