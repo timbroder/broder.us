@@ -23,7 +23,9 @@ define(['fs', 'path'], function (fs, path) {
 
             //First part may be empty string if path starts with a slash.
             if (part) {
-                mkDir(currDir);
+            	//console.log('what?');
+            	//console.log(currDir.replace("//", "/"));
+                mkDir(currDir.replace("//", "/"));
             }
         });
     }
