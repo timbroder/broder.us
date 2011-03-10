@@ -19,7 +19,7 @@ require(["jquery", "jquery-ui", "jquery.address", "jquery.mousewheel-3.0.2.pack"
 			'autoScale': true,
 			'type': 'iframe',
 			'width': '65%',
-			'height': '75%',
+			'height': '75%'
 		});
     });
 });
