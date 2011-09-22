@@ -35,6 +35,23 @@ div.paragraph A:hover {
 	color:#fa82e2;
 } 
 
+div.pics A:link {
+	text-decoration: none;
+	color:#000000;
+}
+div.pics A:visited {
+	text-decoration: none;
+	color:#000000;
+}
+div.pics A:active {
+	text-decoration: none; 
+	color:#fa82e2
+}
+div.pics A:hover {
+	text-decoration: none;
+	color:#fa82e2;
+} 
+
 #tabs {
 	width:700px;
 	//text-align: center;
